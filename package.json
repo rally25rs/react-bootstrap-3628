@@ -1,0 +1,56 @@
+{
+  "name": "react-bootstrap-3628",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=8.10.0",
+    "npm": "0.0.0",
+    "yarn": ">=1.13.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "prop-types": "15.7.2",
+    "react": "16.9.0-alpha.0",
+    "react-bootstrap": "1.0.0-beta.9",
+    "react-dom": "16.9.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.8.0",
+    "babel-loader": "8.0.6",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "3.0.0",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "jest": "24.8.0",
+    "jest-enzyme": "7.0.2",
+    "node-sass": "4.12.0",
+    "pnp-webpack-plugin": "1.5.0",
+    "react-test-renderer": "16.8.6",
+    "sass-loader": "7.1.0",
+    "webpack": "4.35.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/node_modules/regenerator-runtime/runtime"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>setupTests.js"
+    ],
+    "moduleDirectories": [
+      ".",
+      "node_modules"
+    ]
+  }
+}
