@@ -30,23 +30,11 @@
     "babel-loader": "8.0.6",
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
-    "css-loader": "3.0.0",
-    "enzyme": "3.10.0",
-    "enzyme-adapter-react-16": "1.14.0",
-    "jest": "24.8.0",
-    "jest-enzyme": "7.0.2",
-    "node-sass": "4.12.0",
-    "pnp-webpack-plugin": "1.5.0",
-    "react-test-renderer": "16.8.6",
-    "sass-loader": "7.1.0",
-    "webpack": "4.35.0"
+    "jest": "24.8.0"
   },
   "jest": {
     "setupFiles": [
       "<rootDir>/node_modules/regenerator-runtime/runtime"
-    ],
-    "setupFilesAfterEnv": [
-      "<rootDir>setupTests.js"
     ],
     "moduleDirectories": [
       ".",
