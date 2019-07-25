@@ -1,5 +1,5 @@
 import React from 'react';
-import Tooltip from './tooltip';
+import {Tooltip} from 'react-bootstrap';
 
 describe('Tooltip component', () => {
   test('renders correctly', () => {
